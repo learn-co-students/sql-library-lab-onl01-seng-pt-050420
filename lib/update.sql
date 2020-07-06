@@ -1,0 +1,1 @@
+UPDATE characters SET species = "Martian", max_id = MAX(characters.id) WHERE id = max_id ORDER BY id DESC LIMIT 1;
